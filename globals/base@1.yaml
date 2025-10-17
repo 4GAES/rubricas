@@ -1,1 +1,12 @@
+# Global: Base — versión 1
+criterios:
+  - id: version_control
+    tipo: ia
+    peso: 10
+    descripcion: "El repositorio debe seguir buenas prácticas de versionado (commits claros, estructura limpia)."
+
+  - id: documentacion
+    tipo: ia
+    peso: 10
+    descripcion: "Debe incluir un README con descripción, instrucciones y preview funcional."
 

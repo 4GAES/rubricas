@@ -1,1 +1,41 @@
+# Módulo: Intro Web — Rúbrica 1.0.0
+estructura:
+  max_context_bytes: 250000
+  required_files:
+    - index.html
+    - styles.css
+  pick_rules:
+    - { globs: ["index.html"], take: 1, max_bytes: 30000 }
+    - { globs: ["**/*.css"], take: 1, max_bytes: 20000 }
+    - { globs: ["**/*.js"], take: 2, max_bytes: 20000 }
+
+criterios:
+  - id: estructura_html
+    tipo: ia
+    peso: 30
+    descripcion: "El código HTML debe tener una estructura semántica correcta (html, head, body, header, footer, etc.)."
+
+  - id: uso_bootstrap
+    tipo: ia
+    peso: 25
+    descripcion: "Debe usar correctamente el grid system y componentes de Bootstrap."
+
+  - id: responsividad
+    tipo: ia
+    peso: 20
+    descripcion: "El diseño debe ser responsive y adaptarse a distintos tamaños de pantalla."
+
+  - id: estilo_y_limpeza
+    tipo: ia
+    peso: 15
+    descripcion: "El CSS debe estar bien organizado, sin duplicación innecesaria, y con clases significativas."
+
+  - id: cumplimiento_preview
+    tipo: ia
+    peso: 10
+    descripcion: "La web debe parecerse visualmente al preview de referencia (Instagram feed)."
+
+peso_total: 100
+umbrales:
+  aprobar: 60
 

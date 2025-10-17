@@ -1,17 +1,19 @@
-# Stack: Frontend JS — Rúbrica 1.0.0
 criterios:
   - id: consistencia_codigo
     tipo: ia
     peso: 20
-    descripcion: "El código (HTML, CSS, JS) debe ser consistente en estilo, indentación y nombres de variables/clases."
-
+    descripcion: >-
+      El código (HTML, CSS, JS) debe ser consistente en estilo, indentación y
+      nombres de variables/clases.
   - id: buenas_practicas
     tipo: ia
     peso: 20
-    descripcion: "Se deben seguir buenas prácticas de accesibilidad, comentarios, y estructura de carpetas."
-
+    descripcion: >-
+      Se deben seguir buenas prácticas de accesibilidad, comentarios, y
+      estructura de carpetas.
   - id: uso_de_utilidades
     tipo: ia
     peso: 10
-    descripcion: "Aprovecha utilidades del framework o librería usada (Bootstrap, Tailwind, etc.)."
-
+    descripcion: >-
+      Aprovecha utilidades del framework o librería usada (Bootstrap, Tailwind,
+      etc.).
